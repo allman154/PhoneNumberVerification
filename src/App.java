@@ -8,6 +8,7 @@ public class App {
         // Create new instance of ValidationCheck class to process phone numbers.
         ValidationCheck valCheck = new ValidationCheck();
 
+        //Loop through each staff member and run the validation check, printing the results. 
         for (StaffMember sm : staff.getStaffList()) {
             System.out.println("\nValidating Phone Number for USER: " 
                                 + sm.getFirstName() + " " + sm.getLastName() + " - ID: " + sm.getIdNumber());
