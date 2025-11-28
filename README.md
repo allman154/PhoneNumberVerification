@@ -1,9 +1,9 @@
-Java Staff Phone Number Verification – Code Sample
+# Java Staff Phone Number Verification – Code Sample
 
-Description:
+**Description:**
 This sample loads mock Staff data and performs validation checks on their phone numbers.
 
-Structure:
+**Structure:**
 - JDBC/OJDBC-style stubs (non-functional, included for demo)
 - Mock data loader methods (functional)
 - ValidationCheck class for phone number verification
