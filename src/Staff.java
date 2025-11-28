@@ -52,7 +52,7 @@ public class Staff {
                 sm.setFirstName(rset.getString("fname"));
                 sm.setLastName(rset.getString("fname"));
                 sm.setIdNumber(rset.getInt("uid"));
-                sm.setPhoneNumber("pnum");
+                sm.setPhoneNumber(rset.getString("pnum"));
                 staffList.add(sm);
             }
         }
